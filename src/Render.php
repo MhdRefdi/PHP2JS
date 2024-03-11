@@ -57,9 +57,9 @@ class Render extends BaseRender
      * @param array  $data
      * @param string $alias
      *
-     * @return static
+     * @return self
      */
-    public function toStrictJS(array $data = [], string $alias = 'PHP2JS'): static
+    public function toStrictJS(array $data = [], string $alias = 'PHP2JS'): self
     {
         $this->dataJS = $data;
         $this->alias = $alias;
